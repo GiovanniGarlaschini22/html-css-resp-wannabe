@@ -131,8 +131,20 @@ img {
 /* RESPONSIVE TABLET VIEW */
 
  @media screen and (max-width: 768px) {
-    header {
+    body {
         max-width: 768px;
-    };
+    }
+    .steps {
+        width: 1200px;
+    }
  }
  /* RESPONSIVE TABLET VIEW */
+
+ /* RESPONSIVE MOBILE VIEW */
+
+ @media screen and (max-width: 480px) {
+    body {
+        max-width: 460px;
+    }
+ }
+ /* RESPONSIVE MOBILE VIEW */
