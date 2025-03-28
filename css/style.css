@@ -131,11 +131,9 @@ img {
 /* RESPONSIVE TABLET VIEW */
 
  @media screen and (max-width: 768px) {
-    body {
-        max-width: 768px;
-    }
-    .steps {
-        width: 1200px;
+    .container {
+        max-width: 100%;
+        width: 100%;
     }
  }
  /* RESPONSIVE TABLET VIEW */
@@ -143,8 +141,14 @@ img {
  /* RESPONSIVE MOBILE VIEW */
 
  @media screen and (max-width: 480px) {
-    body {
-        max-width: 460px;
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
  }
  /* RESPONSIVE MOBILE VIEW */
