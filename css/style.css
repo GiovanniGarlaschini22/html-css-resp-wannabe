@@ -127,3 +127,12 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/* RESPONSIVE TABLET VIEW */
+
+ @media screen and (max-width: 768px) {
+    header {
+        max-width: 768px;
+    };
+ }
+ /* RESPONSIVE TABLET VIEW */
